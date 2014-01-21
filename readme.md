@@ -21,3 +21,14 @@ Please note:
 Happy hacking! Feel free to use as much or as little as you'd like.
 
 If you have any questions - feel free to tweet directly at me: @jackk
+
+******************************************
+Product Structure:
+
+The main object is defined as a user class within user.php.
+
+All of the Chrome Extension is packaged within the prod-extension directory. Be sure to take a gander at the readme in there. background.html is where the meat of the passive listening takes place. It accesses to php controllers. The UI of the Chrome Extension is within popup.html -- using an iframe into popup-frame.php
+
+All of the user interface is centered around home.php. Each page is suggested to contain includes.php to access all of the classes and methods.
+
+This is a first draft project so you may find a ton of hacky implemented code.
