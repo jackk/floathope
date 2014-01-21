@@ -1,0 +1,19 @@
+{
+  "name": "Float Hope",
+  "version": "1.0",
+  "description": "Ever felt anxiety from visiting a guilty pleasure site? Make that go away.",
+  "browser_action": {
+    "default_icon": "dove.png",
+    "default_title": "Float Hope: Donate to a good cause while you browse your guilty pleasure sites.",
+    "default_popup": "popup.html"
+  },
+  "background_page": "background.html",
+  "content_scripts": [{
+  	"matches": ["http://*/*"],
+  	"js": ["jquery-1.7.1.js", "jquery-cookie.js"]
+  }],
+  "manifest_version": 2,
+  "permissions": [
+  	"tabs", "http://*/*", "https://*/*"
+  ]
+}
