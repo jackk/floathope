@@ -15,7 +15,9 @@ Things that aren't fully baked:
 - Backward looking reporting on previous months
 
 Please note: 
-1) the prod-extension directory contains information on how to package and access the Chrome Extension
-2) make sure you include php.ini in your root directory. this is required for accessing the news feed in home.php
+- the prod-extension directory contains information on how to package and access the Chrome Extension
+- make sure you include php.ini in your root directory. this is required for accessing the news feed in home.php
 
-Happy hacking! Feel free to use as much or as little as you'd like!
+Happy hacking! Feel free to use as much or as little as you'd like.
+
+If you have any questions - feel free to tweet directly at me: @jackk
